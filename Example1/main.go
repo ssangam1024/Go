@@ -1,8 +1,6 @@
 package main // this tells us, this program belongs to main package, also its a main enty point of the application
 import "fmt" // bring fmt files/funtions so that we can use them in this example
 
-
-
 func main() {
 	var student1 string = "John" // in this condition the both type and value of a variable is specified using var keyword
 	var student2 = "Jane"        // this condition tells us we can also use var keyword without specifying type. but here the type of a variable is based on the value given.
