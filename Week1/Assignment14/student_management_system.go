@@ -36,7 +36,7 @@ func main() {
 	for i := 0; i < numSubjects; i++ {
 		fmt.Scan(&Student.Marks[i])
 	}
-	fmt.Println("\nStudent Details:")
+	fmt.Println("Student Details:")
 	fmt.Println("Name:", Student.Name)
 	fmt.Println("Age:", Student.Age)
 	fmt.Println("Marks:", Student.Marks)
